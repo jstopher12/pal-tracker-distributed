@@ -8,5 +8,6 @@ applications:
   env:
     REGISTRATION_SERVER_ENDPOINT: https://timesheets-pal-scott-joe.api.run.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    
   services:
   - tracker-timesheets-database
